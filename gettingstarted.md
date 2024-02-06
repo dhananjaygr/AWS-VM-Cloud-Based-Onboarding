@@ -29,7 +29,7 @@ Before you begin onboarding a VM + AWS based lab through CloudLabs, ensure you h
 
 1. Admin access to [CloudLabs Admin Centre](https://admin.cloudlabs.ai/) (If access is unavailable, kindly reach out to your point of contact or [CloudLabs Support](../../GuideForOnboardingLabs/ContactSupport.md)).
 
-2. Active subscription(s) in CloudLabs. Refer [Onboarding AWS Accounts to CloudLabs](https://docs.cloudlabs.ai/LabDeveloper/OnboardingAWSAccountstoCloudLabs) document if you would like to use you own subscriptions. If you would like the subscriptions to be already onboarded in CloudLabs then you can contact cloudlabs-support@spektrasystems.com for the same
+2. An active subscription in CloudLabs Admin Portal. Refer [How to Onboarding AWS Accounts to CloudLabs](https://docs.cloudlabs.ai/LabDeveloper/OnboardingAWSAccountstoCloudLabs) document.
 
 3. Lab Guide/Reference documents containing necessary instructions, often provided through GitHub which are in GitMarkdown format.
 
