@@ -17,6 +17,8 @@ In this document you will be going through with the below topics:
 
   - [Setup Template in CloudLabs for AWS](#setup-template-in-cloudlabs-for-aws)
 
+  - [Use VM Images in CloudFormation template](#use-vm-images-in-cloudformation-template)
+
   - [Setup On Demand Lab on CloudLabs Admin Portal](#setup-on-demand-lab-on-cloudlabs-admin-portal)
 
   - [Activate the lab](#activate-the-lab)
@@ -66,6 +68,47 @@ Once you are ready to Onboard the labs on CloudLabs Admin Portal, you need to fo
    - **[Add AWS template for VM + Cloud Based Lab](https://dev-cl-docs.azurewebsites.net/Admin/LabDeveloper/Guide%20For%20Onboarding%20Labs/VM%20Based%20Labs%20Onboarding/AWS%20VM%20Based%20Lab%20Onboarding/Adding%20Template%20For%20VM%20Based%20Lab)**
 
 You have successfully onboarded the template into CloudLabs.
+
+## Use VM Images in CloudFormation template
+
+In AWS, there are two ways that you can use Amazon Machine Images (AMIs) to deploy a virtual machine. You can either utilize AWS Marketplace AMIs or create custom AMIs through AWS's EC2 Image Builder or other methods.
+
+### Amazon Machine Images (AMIs) 
+
+To deploy a virtual machine using any Amazon Machine Image (AMI) in AWS, you need to specify the AMI ID for the instance in the resources section of your CloudFormation template. You can find the AMI ID details from the AWS Management Console or using AWS CLI commands.
+
+```
+{
+  "Resources": {
+    "MyEC2Instance": {
+      "Type": "AWS::EC2::Instance",
+      "Properties": {
+        "ImageId": "<AMI ID>",  
+        "InstanceType": "<Instance type>", 
+        "KeyName": "<KeyPair>",     
+        "SecurityGroupIds": [
+          "<security group(s)>"            
+        ],
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "<Name tag for the instance>"  
+          }
+        ]
+      }
+    }
+  }
+}
+```
+### AWS EC2 Image Builder
+
+1. You can follow the detailed guide mentioned below on how to use AWS Systems Manager's Image Builder service to create a custom Amazon Machine Image (AMI) and utilize it.
+
+   - **[creating the Custom AMI](https://docs.cloudlabs.ai/Admin/LabDeveloper/Guide%20For%20Onboarding%20Labs/VM%20Based%20Labs%20Onboarding/AWS%20VM%20Based%20Lab%20Onboarding/Custom%20AMI)**
+
+2. You can create custom Amazon Machine Images (AMIs) for both Windows and Linux instances based on the lab requirements. The below mentioned guide will navigate you to the AWS CloudFormation section of Adding Template in CloudLabs.
+
+   - **[Add AWS template for VM + Cloud Based Lab](https://dev-cl-docs.azurewebsites.net/Admin/LabDeveloper/Guide%20For%20Onboarding%20Labs/VM%20Based%20Labs%20Onboarding/AWS%20VM%20Based%20Lab%20Onboarding/Adding%20Template%20For%20VM%20Based%20Lab)**
 
 ## Setup On Demand Lab on CloudLabs Admin Portal
 1. You'll need to create the On-Demand Lab (ODL) and map the template you've created in the previous step. The creation of ODL is only for Admins and not users.
