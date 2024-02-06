@@ -75,7 +75,7 @@ In AWS, there are two ways that you can use Amazon Machine Images (AMIs) to depl
 
 ### Amazon Machine Images (AMIs) 
 
-To deploy a virtual machine using any Amazon Machine Image (AMI) in AWS, you need to specify the AMI ID for the instance in the resources section of your CloudFormation template. You can find the AMI ID details from the AWS Management Console or using AWS CLI commands.
+1. To deploy a virtual machine using any Amazon Machine Image (AMI) in AWS, you need to specify the AMI ID for the instance in the resources section of your CloudFormation template. You can find the AMI ID details from the AWS Management Console or using AWS CLI commands.
 
 ```
 {
@@ -107,8 +107,6 @@ To deploy a virtual machine using any Amazon Machine Image (AMI) in AWS, you nee
    - **[Creating the Custom AMI](https://docs.cloudlabs.ai/Admin/LabDeveloper/Guide%20For%20Onboarding%20Labs/VM%20Based%20Labs%20Onboarding/AWS%20VM%20Based%20Lab%20Onboarding/Custom%20AMI)**
 
 2. You can create custom Amazon Machine Images (AMIs) for both Windows and Linux instances based on the lab requirements. The below mentioned guide will navigate you to the AWS CloudFormation section of Adding Template in CloudLabs.
-
-   - **[Add template in CloudLabs - AWS CloudFormation template](https://dev-cl-docs.azurewebsites.net/Admin/LabDeveloper/Guide%20For%20Onboarding%20Labs/VM%20Based%20Labs%20Onboarding/AWS%20VM%20Based%20Lab%20Onboarding/Adding%20Template%20For%20VM%20Based%20Lab)**
   
    - **[Add template in CloudLabs - AWS CloudFormation template](https://docs.cloudlabs.ai/LabDeveloper/AddingAWSTemplate/)**
 
