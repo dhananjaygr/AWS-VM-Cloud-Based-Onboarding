@@ -201,7 +201,13 @@ For more information on how to enable RDP/SSH access for **EC2** refer following
 
    * **Cloudformation Template File**: [sample Cloudformation template file](https://spektra-cft-templates.s3.amazonaws.com/cloudlabsdemo.json)
 
-   * **Parameters File**:   [sample parameters file](https://spektra-cft-templates.s3.amazonaws.com/cloudlabsdemo.parameters.json) 
+   * **Parameters File**:   [sample parameters file](https://spektra-cft-templates.s3.amazonaws.com/cloudlabsdemo.parameters.json)
+
+4. Make sure you are adding the URLs of IAM Policy and UsagePolicy files in its respective fields.
+
+5. While creating the ODL, make sure you map the ODL with correct template to avoid conflict in labs.
+
+6. Ensure you are following the Syntax correctly while creating the IAM Policies to avoid deployment failures.
 
 
 
