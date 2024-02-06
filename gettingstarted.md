@@ -100,9 +100,9 @@ To deploy a virtual machine using any Amazon Machine Image (AMI) in AWS, you nee
   }
 }
 ```
-### AWS EC2 Image Builder
+### Amazon EBS
 
-1. You can follow the detailed guide mentioned below on how to use AWS Systems Manager's Image Builder service to create a custom Amazon Machine Image (AMI) and utilize it.
+1. You can follow the detailed guide mentioned below on how to use AWS Amazon EBS service to create a custom Amazon Machine Image (AMI) and utilize it.
 
    - **[Creating the Custom AMI](https://docs.cloudlabs.ai/Admin/LabDeveloper/Guide%20For%20Onboarding%20Labs/VM%20Based%20Labs%20Onboarding/AWS%20VM%20Based%20Lab%20Onboarding/Custom%20AMI)**
 
@@ -111,6 +111,7 @@ To deploy a virtual machine using any Amazon Machine Image (AMI) in AWS, you nee
    - **[Add template in CloudLabs - AWS CloudFormation template](https://dev-cl-docs.azurewebsites.net/Admin/LabDeveloper/Guide%20For%20Onboarding%20Labs/VM%20Based%20Labs%20Onboarding/AWS%20VM%20Based%20Lab%20Onboarding/Adding%20Template%20For%20VM%20Based%20Lab)**
 
 ## Setup On Demand Lab on CloudLabs Admin Portal
+
 1. You'll need to create the On-Demand Lab (ODL) and map the template you've created in the previous step. The creation of ODL is only for Admins and not users.
 
     > **Note:** One template can be mapped with multiple ODLs.
@@ -130,6 +131,7 @@ You have successfully onboarded the On-Demand Lab (ODL) on CloudLabs Admin Porta
 [Manage Access](../../../OnboardingDocs/ManageOnDemandLab.md) 
 
 ## Activate the lab
+
 1. From the **On Demand Labs** Page _(1)_, choose your ODL _(2)_ and click on the Users icon _(3)_ to register into the environment. 
 
    ![](/img/OnboardingDocs/ondemandlab.png)
