@@ -109,6 +109,8 @@ To deploy a virtual machine using any Amazon Machine Image (AMI) in AWS, you nee
 2. You can create custom Amazon Machine Images (AMIs) for both Windows and Linux instances based on the lab requirements. The below mentioned guide will navigate you to the AWS CloudFormation section of Adding Template in CloudLabs.
 
    - **[Add template in CloudLabs - AWS CloudFormation template](https://dev-cl-docs.azurewebsites.net/Admin/LabDeveloper/Guide%20For%20Onboarding%20Labs/VM%20Based%20Labs%20Onboarding/AWS%20VM%20Based%20Lab%20Onboarding/Adding%20Template%20For%20VM%20Based%20Lab)**
+  
+   - **[Add template in CloudLabs - AWS CloudFormation template](https://docs.cloudlabs.ai/LabDeveloper/AddingAWSTemplate/)**
 
 ## Setup On Demand Lab on CloudLabs Admin Portal
 
