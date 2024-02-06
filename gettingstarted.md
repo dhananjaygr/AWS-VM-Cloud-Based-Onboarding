@@ -124,12 +124,6 @@ In AWS, there are two ways that you can use Amazon Machine Images (AMIs) to depl
 
 You have successfully onboarded the On-Demand Lab (ODL) on CloudLabs Admin Portal.
 
-**Note**: Once you have successfully onboarded and tested the ODL (lab) during the development process, you can now proceed with creating a new ODL as a production lab for the users to register.
-
-**Note**: To find more information on ODL and Manging the lab click on the below link to access the guide. You can find information on how to invite users, manage users, extend lab duration and much more.
-
-[Manage Access](../../../OnboardingDocs/ManageOnDemandLab.md) 
-
 ## Activate the lab
 
 1. From the **On Demand Labs** Page _(1)_, choose your ODL _(2)_ and click on the Users icon _(3)_ to register into the environment. 
