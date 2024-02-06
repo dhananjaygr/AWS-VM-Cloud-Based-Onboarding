@@ -43,8 +43,6 @@ To onboard a VM + AWS based lab to CloudLabs, use the below details:
     - **Shared Subscription** : Several users can share a single AWS account. In the instances below, select the shared subscription type.
 
         * VM + Cloud Based Labs; access is granted to AWS management console.
-
-        * Users are only given write Access.
    
     - **Dedicated Subscription** : One of the AWS Organization Member account will be given to the one user.
 
