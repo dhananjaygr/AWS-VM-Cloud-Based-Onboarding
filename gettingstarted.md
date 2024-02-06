@@ -41,10 +41,6 @@ Before you begin onboarding a VM + AWS based lab through CloudLabs, ensure you h
 To onboard a VM + AWS based lab to CloudLabs, use the below details:
 
 - **Subscription Types**:  To onboard a VM + AWS based lab, you should firstly determine what type of access the participants would require and post that you need to select the Subscription type from one of the three types below that CloudLabs offers. It is highly recommended that you apply access and policy constraints for the chosen subscription type.
-
-    - **Shared Subscription** : Several users can share a single AWS account. In the instances below, select the shared subscription type.
-
-        * VM + Cloud Based Labs; access is granted to AWS management console.
    
     - **Dedicated Subscription** : One of the AWS Organization Member account will be given to the one user.
 
