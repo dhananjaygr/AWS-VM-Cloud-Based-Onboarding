@@ -198,7 +198,7 @@ You have successfully onboarded the On-Demand Lab (ODL) on CloudLabs Admin Porta
 
 14. To find more information on ODL and Manging the lab click on the below link to access the guide. You can find information on how to invite users, manage users, extend lab duration and much more.
 
-    [Manage Access](../../../OnboardingDocs/ManageOnDemandLab.md)
+    [Manage Access](https://docs.cloudlabs.ai/Instructor/ManageLabs/)
 
 ## Common Issues and Resolutions 
 
