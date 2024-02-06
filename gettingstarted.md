@@ -70,15 +70,23 @@ Once you are ready to Onboard the labs on CloudLabs Admin Portal, you need to fo
 You have successfully onboarded the template into CloudLabs.
 
 ## Setup On Demand Lab on CloudLabs Admin Portal
-1. Now, you need to create the ODL and map the template which you have created in the previous step to it.
+1. You'll need to create the On-Demand Lab (ODL) and map the template you've created in the previous step. The creation of ODL is only for Admins and not users.
 
-   > **Note:** One template can be mapped with multiple ODLs.
+    > **Note:** One template can be mapped with multiple ODLs.
+    
+2. The onboarding process can vary depending on the requirements of your lab scenario.
 
-2. To create ODL from CloudLabs Admin Portal follow instructions mentioned in the below guide: 
+3. To create ODL from CloudLabs Admin Portal follow instructions mentioned in the below guide: 
 
-   **[Create On Demand Lab in CloudLabs Admin Portal](https://docs.cloudlabs.ai/LabDeveloper/CreatingODL)**
+    - **[Create On Demand Lab in CloudLabs Admin Portal](https://docs.cloudlabs.ai/LabDeveloper/CreatingODL)**
 
 You have successfully onboarded the On-Demand Lab (ODL) on CloudLabs Admin Portal.
+
+**Note**: Once you have successfully onboarded and tested the ODL (lab) during the development process, you can now proceed with creating a new ODL as a production lab for the users to register.
+
+**Note**: To find more information on ODL and Manging the lab click on the below link to access the guide. You can find information on how to invite users, manage users, extend lab duration and much more.
+
+[Manage Access](../../../OnboardingDocs/ManageOnDemandLab.md) 
 
 ## Activate the lab
 1. From the **On Demand Labs** Page _(1)_, choose your ODL _(2)_ and click on the Users icon _(3)_ to register into the environment. 
