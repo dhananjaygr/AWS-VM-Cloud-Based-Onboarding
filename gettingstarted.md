@@ -65,7 +65,7 @@ Once you are ready to Onboard the labs on CloudLabs Admin Portal, you need to fo
 
 3. Follow the below mentioned guide to Add Template in CloudLabs.
 
-   - **[Add AWS template for VM Based Lab](https://dev-cl-docs.azurewebsites.net/Admin/LabDeveloper/Guide%20For%20Onboarding%20Labs/VM%20Based%20Labs%20Onboarding/AWS%20VM%20Based%20Lab%20Onboarding/Adding%20Template%20For%20VM%20Based%20Lab)**
+   - **[Add AWS template for VM + Cloud Based Lab](https://dev-cl-docs.azurewebsites.net/Admin/LabDeveloper/Guide%20For%20Onboarding%20Labs/VM%20Based%20Labs%20Onboarding/AWS%20VM%20Based%20Lab%20Onboarding/Adding%20Template%20For%20VM%20Based%20Lab)**
 
 You have successfully onboarded the template into CloudLabs.
 
