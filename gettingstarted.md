@@ -154,12 +154,13 @@ You have successfully onboarded the On-Demand Lab (ODL) on CloudLabs Admin Porta
 
    ![](/img/OnboardingDocs/odl-select-odl.png)
 
+   ![](/img/OnboardingDocs/odl-activation-code.png)   
 
-10. Click on **+ ADD ACTIVATION CODE** 
+11. Click on **+ ADD ACTIVATION CODE** 
 
     ![](/img/OnboardingDocs/odl-add-activation-code.png) 
 
-11. Provide the below values for the Activation Code properties.
+12. Provide the below values for the Activation Code properties.
 
     - **Name:** The Activation code should always follow the naming convention **ACTIVATE<**-**ODL-ID**-**>**. For instance, if your ODL ID is 38407, then the Activation Code will be **ACTIVATE38407**.
 
@@ -175,18 +176,18 @@ You have successfully onboarded the On-Demand Lab (ODL) on CloudLabs Admin Porta
 
     ![](/img/OnboardingDocs/odl-provide-activation-code.png) 
 
-12. Copy the Bit.ly URL and share it with the users.
+13. Copy the Bit.ly URL and share it with the users.
 
     ![](/img/OnboardingDocs/odl-copy-bitly-url.png) 
 
-13. Users can activate their labs by following the below steps:
+14. Users can activate their labs by following the below steps:
      -	Navigate to the Bit.ly URL.
      -	Provide the required details.
      -	Click on Submit.
 
      ![](/img/OnboardingDocs/registrationpage.png) 
 
-14. To find more information on ODL and Manging the lab click on the below link to access the guide. You can find information on how to invite users, manage users, extend lab duration and much more.
+15. To find more information on ODL and Manging the lab click on the below link to access the guide. You can find information on how to invite users, manage users, extend lab duration and much more.
 
     [Manage Access](https://docs.cloudlabs.ai/Instructor/ManageLabs/)
 
