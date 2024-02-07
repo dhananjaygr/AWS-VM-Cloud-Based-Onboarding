@@ -128,21 +128,21 @@ You have successfully onboarded the On-Demand Lab (ODL) on CloudLabs Admin Porta
 
 2. Click on **+ Add User** and enter your details then click on **Submit**. 
 
-   ![](/img/OnboardingDocs/adduser-v2.png)
+   ![](/img/OnboardingDocs/adduser.png)
 
 3. Now you have successfully registered yourself as a user. 
 
 4. Within the **Users** page, you will find an instance registered under your name, indicated by its status being in the Approved state _(1)_. Proceed by clicking the **Launch** _(2)_ button.
 
-   ![](/img/OnboardingDocs/odl-approved1.png)
+   ![](/img/OnboardingDocs/Approved.png)
 
 5. Now you will be navigated to a different browser tab where you will be able to view the page as shown in the screenshot below. On this page, click on the **Launch Lab** button.
 
-   ![](/img/OnboardingDocs/launchlab.png)
+   ![](/img/OnboardingDocs/launchlab.png) 
 
 6. Upon clicking the **Launch Lab** button, the deployment process will initiate, leading you to the screen illustrated in the provided screenshot below:
 
-   ![](/img/OnboardingDocs/odl-lablaunch.png)
+   ![](/img/OnboardingDocs/odl-launchlab.png)
 
 7. After the instance is successfully deployed, you will encounter the screen depicted in the provided screenshot:  
 
@@ -157,7 +157,7 @@ You have successfully onboarded the On-Demand Lab (ODL) on CloudLabs Admin Porta
 
 10. Click on **+ ADD ACTIVATION CODE** 
 
-    ![](/img/OnboardingDocs/odl-add-activation-code.png)
+    ![](/img/OnboardingDocs/odl-add-activation-code.png) 
 
 11. Provide the below values for the Activation Code properties.
 
@@ -173,18 +173,18 @@ You have successfully onboarded the On-Demand Lab (ODL) on CloudLabs Admin Porta
 
     Finally, click **Submit** to save details.
 
-    ![](/img/OnboardingDocs/odl-provide-activation-code-details.png)
+    ![](/img/OnboardingDocs/odl-provide-activation-code.png) 
 
 12. Copy the Bit.ly URL and share it with the users.
 
-    ![](/img/OnboardingDocs/odl-copy-bitly-url.png)
+    ![](/img/OnboardingDocs/odl-copy-bitly-url.png) 
 
 13. Users can activate their labs by following the below steps:
      -	Navigate to the Bit.ly URL.
      -	Provide the required details.
      -	Click on Submit.
 
-     ![](/img/OnboardingDocs/register.png)
+     ![](/img/OnboardingDocs/registrationpage.png) 
 
 14. To find more information on ODL and Manging the lab click on the below link to access the guide. You can find information on how to invite users, manage users, extend lab duration and much more.
 
