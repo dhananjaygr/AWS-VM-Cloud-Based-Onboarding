@@ -152,7 +152,7 @@ You have successfully onboarded the On-Demand Lab (ODL) on CloudLabs Admin Porta
 
 9. From the **On Demand Labs** Page, choose your ODL _(1)_ and click on the Elipses icon _(2)_ and select **Activate Codes** to create an activation code. 
 
-   ![](/img/OnboardingDocs/odl-select-odl.png)
+   ![](/img/OnboardingDocs/odl-select-odl.png) 
 
    ![](/img/OnboardingDocs/odl-activation-code.png)   
 
