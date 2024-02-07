@@ -161,7 +161,7 @@ You have successfully onboarded the On-Demand Lab (ODL) on CloudLabs Admin Porta
 
 11. Provide the below values for the Activation Code properties.
 
-    - **Name:** The Activation code should always follow the naming convention **ACTIVATE<**-**ODL-ID**-**>**. For instance, if your ODL ID is 1462, then the Activation Code will be **ACTIVATE1462**.
+    - **Name:** The Activation code should always follow the naming convention **ACTIVATE<**-**ODL-ID**-**>**. For instance, if your ODL ID is 38407, then the Activation Code will be **ACTIVATE38407**.
 
     - **Customer:** Provide your company or customer name.
 
